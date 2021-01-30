@@ -55,3 +55,5 @@ F. true, since 2 gets converted to a Boolean (true) before the strictly equals o
 The difference is that === is *strictly* true, which does not convert types and automatically returns false when the types are different.
 ### 17. From the code snippet below, explain what gets printed and why.
 "How are you?" gets printed. This is because 2 == true converts true to 1, and that expression simplifies to false. 2 itself, converted to a Boolean, returns true, so that block is entered and "How are you?" gets printed.
+![Functions](https://lh5.googleusercontent.com/8Jy_gTsdt-mzr9OjOK4l-LM4XQFOf3xvpbKNOuHrvYXn5stUOOqeeXsaKuAoLoULsbMr0OSUJni7GrPbRAh_0QIk2vVTFftl68SMa5KodA1TOxI6H19BsgzP8tfbbwKKTej4EYB5)
+### 19. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result?
