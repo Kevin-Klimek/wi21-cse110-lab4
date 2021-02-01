@@ -57,6 +57,8 @@ The difference is that === is *strictly* true, which does not convert types and 
 "How are you?" gets printed. This is because 2 == true converts true to 1, and that expression simplifies to false. 2 itself, converted to a Boolean, returns true, so that block is entered and "How are you?" gets printed.
 ![Functions](https://lh5.googleusercontent.com/8Jy_gTsdt-mzr9OjOK4l-LM4XQFOf3xvpbKNOuHrvYXn5stUOOqeeXsaKuAoLoULsbMr0OSUJni7GrPbRAh_0QIk2vVTFftl68SMa5KodA1TOxI6H19BsgzP8tfbbwKKTej4EYB5)
 ### 19. If the function above is called with the following parameters modifyArray([1,2,3], doSomething), what will be the result?
+This function takes an array input, and outputs an array of the same length with modified values. For every value in the input array, the passed function, in this case doSomething, gets called with a callback function that doubles the output. doSomething itself adds 2 to the passed value, so if x were in the original array, 2(x+2) is in the final array.
+The returned array will contain [6,8,10].
 ### 21. 21. What is the output of this code?
 1
 3
